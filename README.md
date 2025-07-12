@@ -1,56 +1,75 @@
 # 🧠 The Nudge – Smart Scheduling and Calendar Aid
 
-A productivity-focused scheduling assistant that lets you **create calendar events from images**, mimics **Google Goals-style intelligent suggestions**, and integrates seamlessly with multiple calendar platforms.
+**The Nudge** is an intelligent calendar assistant that enhances **Google Calendar** capabilities through **Google-native technologies**. It streamlines scheduling via natural language input, goal-based automation, and image-to-event parsing.
 
-Built with NLP, OCR, and scalable APIs – The Nudge helps you take the friction out of organizing your time.
+Featuring secure **Google OAuth** and full **Google Calendar API** integration, it's architected for seamless deployment on **Google Cloud Platform (GCP)** and designed to fit into modern, scalable, Google-centric workflows.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🖼️ **Image to ICS**  
-  Upload or scan an image (e.g. a flyer or handwritten note), and instantly convert it into a valid `.ics` calendar event. Uses OCR and date/time recognition.
+- 🔐 **Google OAuth 2.0 Authentication**  
+  Secure sign-in and user consent via Google's identity infrastructure.
 
-- 🧭 **Google Goals-like Smart Suggestions**  
-  Automatically recommends ideal times for your personal goals (e.g., workouts, reading) based on your availability and habits.
+- 🗓️ **Google Calendar API Integration**  
+  Full read/write calendar access, recurring event handling, availability fetching, and more.
 
-- 🔐 **Google OAuth 2.0**  
-  Secure sign-in and access to Google Calendar.
+- 💬 **Natural Language Scheduling**  
+  Converts phrases like `call with Ansh next Friday at 11am` into structured Google Calendar events using a custom NLP engine.
 
-- 🔄 **Multi-Calendar Support**  
-  Compatible with Google Calendar and 4+ other platforms using `.ics`.
+- 🧭 **Smart Goal Scheduling**  
+  Dynamically suggests optimal time slots for recurring personal goals, reimagined with logic inspired by Google Goals.
 
-- 💬 **NLP-Based Chat Interface**  
-  Schedule tasks using natural language (e.g., "Lunch with Raj at 2pm tomorrow").
+- 🖼️ **Image to ICS Conversion**  
+  Automatically converts posters, flyers, and handwritten notes into `.ics` calendar entries via OCR + time parsing.
 
-- ⚙️ **Bulk Scheduling API**  
-  REST APIs to automate large-scale calendar entries.
+- ⚙️ **Clean, Developer-Friendly UI**  
+  React-based frontend for intuitive event input and parsed calendar action visualization.
 
-- ☁️ **Cloud-Hosted**  
-  Fully deployed on **Google Cloud Platform** for scalability and low latency.
+---
+
+## 🌐 Google-First Architecture
+
+Built from the ground up for deep integration with Google services:
+
+- ✅ Google OAuth for secure user authentication  
+- ✅ Google Calendar API for real-time sync and automation  
+- ✅ Designed for deployment on Google Cloud Platform  
+- ✅ Uses native Google data formats and workflows  
+- ✅ Easily extendable across Google Workspace (Gmail, Meet, Docs, etc.)
 
 ---
 
 ## 🧠 Use Cases
 
-- Convert shared event posters into actual calendar entries.
-- Plan personal goals with AI-powered time recommendations.
-- Integrate smart scheduling into your team's product.
-- Let users create events via chat, speech, or scanned documents.
+- Schedule meetings, reminders, or tasks using natural language
+- Automate recurring goals with intelligent time suggestions
+- Scan event posters or screenshots to create instant invites
+- Build calendar-based workflows inside the Google ecosystem
 
 ---
 
 ## 📈 Highlights
 
-- ⏱️ Reduced time to schedule from images by >80%
-- 💬 Natural language support for over 20 time-based expressions
-- 🌐 Fully cloud-native and API-driven – ideal for integration
+- 🔐 End-to-end secure flow using Google infrastructure only  
+- 🧠 Custom-built NLP engine without third-party AI dependencies  
+- ⏱️ Cuts down manual scheduling effort by over **80%**  
+- 🌐 Fully compatible with Google Workspace
 
 ---
 
 ## 👥 Team
 
-- **Devaj Rathore**
-- **Ansh Varma**
+**Devaj Rathore**  
+**Ansh Varma**  
+Team Size: 2  
+Project Type: Independent  
+Started: **June 2025**
 
-**Team Size:** 2  
+---
+
+## 📄 License
+
+This project is **source-available for review purposes only**.  
+Use, reproduction, modification, or distribution is **not permitted** without prior written permission.  
+© 2025 **Devaj Rathore**, **Ansh Varma**. All rights reserved.
